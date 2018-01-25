@@ -30,5 +30,5 @@ chart <- ggplot(terminatorLatLon, aes(frame = frame)) +
   coord_equal(xlim = c(-180, 190), ylim = c(-58, 85), expand = 0) +
   theme_map()
 
-gganimate(chart, interval = 0.1, ani.width=1000, ani.height=600, filename = "nightday3.gif")
+gganimate(chart, interval = 0.1, ani.width=1000, ani.height=600, filename = "terminator-animation.gif")
 ```
